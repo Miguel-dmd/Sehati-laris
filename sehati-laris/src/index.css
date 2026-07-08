@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222222;
+  line-height: 1.6;
+}
+
+/* Animasi custom text stroke */
+@layer utilities {
+  .text-stroke-black {
+    -webkit-text-stroke: 0.1px black;
+  }
+}

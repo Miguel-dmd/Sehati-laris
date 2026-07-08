@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja - Sehati Laris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <Header>
+        <div class="header-logo">
+            <div class="logo"> <a href="Sehati_laris.html"> <img src="logo.jpeg" alt="Sehati Laris"> </a> </div>
+            <nav class="navbar"> 
+                <a href="Sehati_laris.html" class="btn-atas"><b>Beranda</b></a> | 
+                <a href="Produk.html" class ="btn-atas"><b>Semua Produk</b></a> | 
+                <a href="Info.html" class ="btn-atas"><b>Tentang Kami</b></a> |
+                <a href="Keranjang.html" class="btn-atas hidup cart-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </Header>
+
+    <section class="cart-section">
+        <h2>Keranjang Belanja Anda</h2>
+        <div class="table-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Produk</th>
+                        <th>Qty</th>
+                        <th>Harga</th>
+                        <th>Total Harga</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="isi-keranjang">
+                    <tr>
+                         <td colspan="6" class="empty-cart">Belum ada produk di keranjang.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="cart-summary">
+            <h3>Total Pembayaran: <span id="total-harga">Rp 0</span></h3>
+            <button class="btn-konfirmasi">Konfirmasi Pembelian</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <ul> <h1> Sehati Laris</h1>
+                <li>Email   : Sehatilaris.com</li>
+                <li>Phone   : +62 823-1178-1118</li>
+                <li>Address : Jl. Selamat Ketaren No.20, Bandar Selamat, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20223</li>
+            </ul>
+            <div class="fots">
+                <ul> <h2>Informasi Kami</h2>
+                    <li> <a href="Sehati_laris.html">Beranda</a></li>
+                    <li> <a href="Produk.html">Semua Produk</a></li>
+                    <li> <a href="Info.html">Tentang Kami</a></li>
+                </ul>
+                <ul> <h2>Koleksi Terbaik</h2>
+                    <li><a href="ATK.html">ATK</a></li>
+                    <li><a href="Elektronik.html">Elektronik</a></li>
+                    <li><a href="Packaging.html">Packaging</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2025 Sehati Laris. All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="scirpt.js"></script>
+</body>
+</html>
